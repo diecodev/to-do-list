@@ -6,11 +6,19 @@
 
 <div align="center">
   <h3>
-    <a href="https://apophthegm.github.io/to-do-list/" target="_blank">
+  <a href="https://i.ibb.co/CzSFbVN/ToDo.png">
+      Demo
+    </a>
+    <span> | </span>
+  <a href="https://apophthegm.github.io/to-do-list/">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5" target="_blank">
+    <a href="https://github.com/apophthegm/to-do-list">
+      Repository
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
       Challenge
     </a>
   </h3>
@@ -33,6 +41,10 @@
 
 ![screenshot](https://i.ibb.co/CzSFbVN/ToDo.png)
 
+- Where can I see your demo?
+
+  You can see my [Demo here](https://i.ibb.co/CzSFbVN/ToDo.png).
+
 - What was my experience?
 
   my experience was very satisfactory, making use of the localStorage to give a better user experience, looking for solutions to comprehension problems that were presented, but, despite that, the whole process of development was very enriching.
@@ -42,6 +54,7 @@
   I learned the use of the useEffect hook, the handling of the LocalStorage, conditional renders among other topics that were of great importance when solving this challenge.
 
 - My wisdom? :)
+
   I knew how to use React, SASS but not in a deep way, I had topics to learn and thanks to this challenge I have enriched my knowledge.
 
 ### Built With
@@ -79,3 +92,4 @@ $ npm start
 - Website [apophthegm.github.io](https://apophthegm.github.io/)
 - GitHub [@apophthegm](https://github.com/apophthegm)
 - Instagram [@diegodiazcol](https://instagram.com/diegodiazcol)
+- Telegram [@diegodiazcol](https://t.me/diegodiazcol)
