@@ -1,0 +1,68 @@
+@import "./app.scss";
+
+.notes-container {
+  height: 60vh;
+  overflow: auto;
+  padding: 10px;
+  position: relative;
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+
+    .task-container {
+      width: 90%;
+      position: relative;
+
+      input {
+        display: none;
+      }
+
+      label {
+        padding-left: 2rem;
+        text-transform: capitalize;
+        height: 2px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translate(0, -50%);
+          width: 0.8rem;
+          height: 0.8rem;
+          border-radius: 2px;
+          border: 1px solid $color-blue;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+
+      input:checked + label {
+        text-decoration: line-through 2px $color-blue;
+        text-decoration-style: double;
+
+        &::before {
+          background: $color-blue;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .delete {
+      color: $color-tomato;
+    }
+  }
+
+  .clear-all {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    background: $color-tomato;
+    border: none;
+    padding: 5px;
+    border-radius: 1rem;
+    color: white;
+  }
+}

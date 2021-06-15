@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap");
+
+$color-blue: rgb(110, 173, 255);
+$color-tomato: tomato;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+
+html {
+  overflow: hidden;
+}
+
+.global-container {
+  padding: 25px;
+
+  .logo {
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid rgba($color: $color-blue, $alpha: 0.3);
+    margin-bottom: 25px;
+    font-weight: bold;
+
+    .navbar-item {
+      display: none;
+
+      ~ label {
+        cursor: pointer;
+        display: block;
+        width: 25%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      &:checked + label {
+        color: white;
+        background: $color-blue;
+        border-radius: 1rem;
+      }
+    }
+  }
+
+  .form {
+    width: 100%;
+    height: 30px;
+    box-sizing: content-box;
+    margin-bottom: 25px;
+
+    span {
+      width: 80%;
+      height: 100%;
+      display: inline-block;
+      position: relative;
+      box-sizing: border-box;
+
+      .text {
+        border: none;
+        width: 99%;
+        height: 99%;
+        box-sizing: border-box;
+        margin-right: 5px;
+        border-bottom: 2px solid #aaaaaa;
+        transform-origin: left;
+        outline: none;
+        background: transparent;
+        font-size: 16px;
+      }
+
+      .animation {
+        &::before {
+          content: "";
+          width: 99%;
+          height: 2px;
+          background-color: $color-blue;
+          position: absolute;
+          bottom: 1px;
+          left: 0;
+          transform: scale(0);
+          transition: all 0.3s ease-in;
+          transform-origin: left;
+        }
+      }
+
+      .text:focus + .animation::before {
+        transform: scale(1);
+      }
+    }
+
+    .button {
+      width: 20%;
+      background: $color-blue;
+      border: none;
+      padding: 5px;
+      border-radius: 1rem;
+      color: white;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .global-container {
+    padding: 0 25%;
+  }
+}
