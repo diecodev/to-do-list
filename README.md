@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://apophthegm.github.io/to-do-list/" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
+    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5" target="_blank">
       Challenge
     </a>
   </h3>
@@ -33,12 +33,16 @@
 
 ![screenshot](https://i.ibb.co/CzSFbVN/ToDo.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+- What was my experience?
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+  my experience was very satisfactory, making use of the localStorage to give a better user experience, looking for solutions to comprehension problems that were presented, but, despite that, the whole process of development was very enriching.
+
+- What have I learned/improved?
+
+  I learned the use of the useEffect hook, the handling of the LocalStorage, conditional renders among other topics that were of great importance when solving this challenge.
+
+- My wisdom? :)
+  I knew how to use React, SASS but not in a deep way, I had topics to learn and thanks to this challenge I have enriched my knowledge.
 
 ### Built With
 
